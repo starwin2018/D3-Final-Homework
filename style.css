@@ -1,0 +1,78 @@
+body {
+    font-family: "Avenir", "Helvetica Neue", Helvetica, sans-serif;
+    width: 100%;
+  }
+
+  svg.main {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  h1,
+  h2 {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  h3 {
+    text-transform: uppercase;
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+
+  h2 {
+    font-size: 18px;
+    color: #888;
+  }
+
+  h1 {
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+
+  .background {
+    fill: none;
+    pointer-events: all;
+  }
+
+  .land {
+    fill: rgb(41, 61, 240);
+    cursor: pointer;
+  }
+
+  .land.active {
+    fill: rgb(54, 167, 114);
+  }
+
+  .border {
+    fill: none;
+    stroke: #fff;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+
+  .bubble circle {
+    fill: rgb(207, 223, 119);
+    fill-opacity: 0.5;
+    stroke: #fff;
+    stroke-width: 0.4px;
+  }
+
+  .legend circle {
+    fill:  rgb(207, 223, 119);
+    fill-opacity: 0.5;
+    stroke: rgb(245, 11, 11);
+    stroke-width: 1px;
+  }
+
+  .legend text {
+    fill: black;
+    font: 10px sans-serif;
+    text-anchor: middle;
+  }
